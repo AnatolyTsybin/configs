@@ -7,8 +7,6 @@ syntax on
 " Turn on auto indentation
 set ai
 
-" Show line numbers
-set number
 " Highlight current line
 set cursorline
 
