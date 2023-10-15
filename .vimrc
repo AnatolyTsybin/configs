@@ -29,5 +29,8 @@ set softtabstop=4
 " Insert tabstop number of spaces when the tab key is pressed
 set smarttab
 
+" Show file name, modifications and encoding.
+set laststatus=2 statusline=%f\ %m\ %{&fileencoding?&fileencoding:&encoding}
+
 autocmd FileType make setlocal noexpandtab
 
